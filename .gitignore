@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.aux
+*.log
+*.out
+*.pdf
+*.gz
+*.thm
+*.toc
+*.lof
+*.lot
+#*.bbl
+*.blg
+*.bak

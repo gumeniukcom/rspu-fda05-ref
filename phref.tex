@@ -1,0 +1,23 @@
+\documentclass[a4paper,14pt,russian]{report} 
+
+\input{packages}
+\input{styles}			% Пользовательские стили
+
+
+\begin{document}
+
+\input{names}			% Переопределение наименований
+
+\input{title}			% Титульный лист
+%\renewcommand{\baselinestretch}{1.5}
+\input{contents}
+
+\input{introduction}	% Введение
+\input{part1}			% Глава 1
+%\input{part2}			% Глава 2
+\input{conclusion}		% Заключение
+\input{references}		% Список литературы
+
+
+
+\end{document}
